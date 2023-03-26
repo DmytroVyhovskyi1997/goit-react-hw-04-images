@@ -6,7 +6,7 @@ import { createPortal } from 'react-dom';
 const modal = document.getElementById('modal-root');
 
 const Modal = ({ selectedImage, onClose,  tags  }) =>{
-  console.log(tags);
+ 
   useEffect(() => {
     const handleKeyDown = e => {
       if (e.code === 'Escape') {
