@@ -47,4 +47,3 @@ Searchbar.propTypes = {
 };
 
 export default Searchbar;
-

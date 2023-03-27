@@ -5,8 +5,7 @@ import { createPortal } from 'react-dom';
 
 const modal = document.getElementById('modal-root');
 
-const Modal = ({ selectedImage, onClose,  tags  }) =>{
- 
+const Modal = ({ selectedImage, onClose, tags }) => {
   useEffect(() => {
     const handleKeyDown = e => {
       if (e.code === 'Escape') {
@@ -29,7 +28,7 @@ const Modal = ({ selectedImage, onClose,  tags  }) =>{
     </div>,
     modal
   );
-}
+};
 
 Modal.propTypes = {
   selectedImage: PropTypes.string.isRequired,

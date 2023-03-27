@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Searchbar from 'components/Searchbar/Searchbar';
 import { fetchImages } from 'Api/fetchImages';
 import ImageGallery from 'components/ImageGallery/ImageGallery';
-import  Modal  from 'components/Modal/Modal';
+import Modal from 'components/Modal/Modal';
 import { Loader } from 'components/Loader/Loader';
 import { Button } from 'components/Button/Button';
 import Notiflix from 'notiflix';
